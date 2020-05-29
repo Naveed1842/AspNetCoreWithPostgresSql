@@ -8,5 +8,6 @@ namespace ArticleApp.API.Data{
 
         }
         public DbSet<Article> Articles {get;set;}
+        public DbSet<Post> Posts {get;set;}
     }
 }
